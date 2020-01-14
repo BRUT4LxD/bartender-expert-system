@@ -2,9 +2,10 @@
 
 namespace BartenderExpertSystem
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        protected Program() { }
+        private static void Main()
         {
             Console.WriteLine("Hello World!");
         }
