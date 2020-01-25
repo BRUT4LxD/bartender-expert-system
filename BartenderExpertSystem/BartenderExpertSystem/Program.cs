@@ -1,4 +1,5 @@
 ﻿using System;
+using BartenderExpertSystem.Drinks;
 
 namespace BartenderExpertSystem
 {
@@ -7,7 +8,11 @@ namespace BartenderExpertSystem
         protected Program() { }
         private static void Main()
         {
-            Console.WriteLine("Hello World!");
+            var xx = new DialogProcessor().ProcessDialog();
+            foreach (var x in xx)
+            {
+                Console.Write(x + " ");
+            }
         }
     }
 }

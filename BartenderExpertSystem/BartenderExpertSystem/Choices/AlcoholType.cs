@@ -7,8 +7,6 @@
         Gin,
         Tequila,
         Vodka,
-        Champagne,
-
-
+        Champagne
     }
 }
