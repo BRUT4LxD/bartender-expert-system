@@ -1,5 +1,4 @@
-﻿using System;
-using BartenderExpertSystem.Drinks;
+﻿using BartenderExpertSystem.Drinks;
 
 namespace BartenderExpertSystem
 {
@@ -8,11 +7,7 @@ namespace BartenderExpertSystem
         protected Program() { }
         private static void Main()
         {
-            var xx = new DialogProcessor().ProcessDialog();
-            foreach (var x in xx)
-            {
-                Console.Write(x + " ");
-            }
+            new DialogProcessor().ProcessDialog();
         }
     }
 }
